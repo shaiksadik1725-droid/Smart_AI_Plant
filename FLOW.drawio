@@ -1,0 +1,143 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="UbywzhrbSnHQ8W2sTQTO">
+    <mxGraphModel dx="1930" dy="1368" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d-duhDEKpFKKM_s6XNet-3" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="START" vertex="1">
+          <mxGeometry height="80" width="120" x="78" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-5" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="INITIALIZE ALL THE COMPONENTS" vertex="1">
+          <mxGeometry height="60" width="158" x="246" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-8" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="CONNECT TO BLYNK" vertex="1">
+          <mxGeometry height="60" width="158" x="246" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-24" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="CHECK ALL SENSOR READINGS" vertex="1">
+          <mxGeometry height="60" width="158" x="246" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-26" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="ACTIVATE LSTM AI MODEL" vertex="1">
+          <mxGeometry height="60" width="226" x="484" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-28" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="SEND ALL SENSOR READINGS TO AI MODEL VIA IP ADDRESS" vertex="1">
+          <mxGeometry height="60" width="226" x="484" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-30" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-42" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-48" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-47" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="COLLECT SENSOR READINGS FROM ESP32 AND TRAIN AI MODEL" vertex="1">
+          <mxGeometry height="60" width="226" x="484" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-32" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-34" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-29" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="PLANT WEIGHT &amp;gt; 200g" vertex="1">
+          <mxGeometry height="176" width="199.5" x="497.25" y="663" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="PUT A HEALTHY PLANT" vertex="1">
+          <mxGeometry height="60" width="169.5" x="766" y="721" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-38" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-52" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-51" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-33" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="MOISTURE NOT DETECTED??" vertex="1">
+          <mxGeometry height="176" width="199.5" x="497.25" y="919" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="CHECK AI COMMAND &quot;PUMP ON&quot;" vertex="1">
+          <mxGeometry height="60" width="157.5" x="1101" y="1146" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-61" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" target="d-duhDEKpFKKM_s6XNet-60" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="CHECK AI COMMAND &quot;PUMP OFF&quot;" vertex="1">
+          <mxGeometry height="60" width="255" x="469.5" y="1153" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-44" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-46" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-40" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="AIR QUALITY GOOD" vertex="1">
+          <mxGeometry height="171" width="176" x="986" y="494.5" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="CHECK AIR QUALITY" vertex="1">
+          <mxGeometry height="60" width="235" x="956.5" y="803" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="SEND BLYNK NOTIFICATION" vertex="1">
+          <mxGeometry height="60" width="205" x="1270" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-50" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-59" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-58" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="145" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-47" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="LDR &amp;lt; LDR THRESHOLD" vertex="1">
+          <mxGeometry height="158" width="178" x="214" y="501" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="CHECK AI COMMAND &quot;LIGHTS_ON&quot;" vertex="1">
+          <mxGeometry height="60" width="192" x="207" y="769" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-56" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-53" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="CHECK TANK TEMPERATURE" vertex="1">
+          <mxGeometry height="60" width="192.5" x="816.5" y="977" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-55" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-54" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-57" edge="1" parent="1" source="d-duhDEKpFKKM_s6XNet-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" target="d-duhDEKpFKKM_s6XNet-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-53" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="TEMP HIGH" vertex="1">
+          <mxGeometry height="130" width="141.69" x="841.9" y="1111" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="WAIT UNTIL TEMP GOES DOWN" vertex="1">
+          <mxGeometry height="60" width="174.26" x="825.62" y="1301" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="CHECK AI COMMAND &quot;LIGHT_OFF&quot;" vertex="1">
+          <mxGeometry height="60" width="192" x="54" y="983" as="geometry" />
+        </mxCell>
+        <mxCell id="d-duhDEKpFKKM_s6XNet-60" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;END&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="537" y="1316" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
