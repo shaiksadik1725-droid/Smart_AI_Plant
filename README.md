@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/ESP32-IoT-00979D" />
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-LSTM-FF6F00?logo=tensorflow&logoColor=white" />
+  <a href="https://github.com/shaiksadik1725-droid/Smart_AI_Plant/actions/workflows/python-syntax.yml"><img src="https://github.com/shaiksadik1725-droid/Smart_AI_Plant/actions/workflows/python-syntax.yml/badge.svg" alt="Python syntax check" /></a>
 </p>
 
 ## Project at a Glance
