@@ -9,9 +9,9 @@
 #include <DallasTemperature.h>
 #include "HX711.h"
 
-char auth[] = "xi56kebqmCewvhic0mKhHBoTxDeNVz8q";
-char ssid[] = "HUAWEI_H112_DEA2";
-char pass[] = "17ARQN13NFE";
+char auth[] = "YOUR_BLYNK_AUTH_TOKEN";
+char ssid[] = "YOUR_WIFI_SSID";
+char pass[] = "YOUR_WIFI_PASSWORD";
 
 #define MQ2_PIN 34
 #define SOIL_PIN 35
